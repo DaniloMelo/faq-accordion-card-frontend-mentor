@@ -1,3 +1,9 @@
+.faq__woman-desktop,
+.faq__pattern-desktop,
+.faq__box{
+    display: none;
+}
+
 .faq{
     background: #fff;
     border-radius: 1.5rem;
@@ -14,7 +20,6 @@
 .faq__pattern-mobile{
     margin-top: -7rem;
     width:100%
-
 }
 
 .faq__title{
@@ -39,5 +44,9 @@
     align-items: center;
     justify-content: space-between;
 
+}
+
+.faq__answer > p {
+    color: var(--dark-grayish-blue)
 }
 
