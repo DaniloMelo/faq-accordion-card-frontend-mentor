@@ -34,8 +34,20 @@ const arrows = document.querySelectorAll('.arrow')
 const faqQuestionsBoxes = document.querySelectorAll('.faq__question')
 
 faqQuestionsBoxes.forEach( box => {
-    box.addEventListener('click', () => {
+    box.addEventListener('click', (event) => {
         box.classList.toggle('faq__answer--toggle')
+        box.classList.toggle('faq__anwer--rotate-arrow')
+        // console.log(event.target.childNodes[1])
+        // console.log(box.classList.contains('faq__question'))
+
+        // if(box.classList.contains('faq__question')){
+        //     box.classList.toggle('faq__answer--toggle')
+        //     event.target.childNodes[1].classList.toggle('faq__anwer--rotate-arrow')
+        // }
+
+        
     })
 })
+
+
 

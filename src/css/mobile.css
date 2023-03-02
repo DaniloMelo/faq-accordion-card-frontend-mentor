@@ -57,13 +57,18 @@
 }
 
 .faq__question.faq__answer--toggle .faq__answer{
-    max-height: 50px;
+    max-height: 100px;
 } 
-
 
 .faq__answer > p {
     color: var(--dark-grayish-blue);
 }
 
+.faq__arrow{
+    transform: rotate(0deg);
+    transition: .3s
+}
 
-
+.faq__question.faq__anwer--rotate-arrow .faq__arrow{
+    transform: rotate(-180deg);
+}
