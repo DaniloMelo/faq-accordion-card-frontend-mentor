@@ -39,14 +39,31 @@
 }
 
 .faq__question > p {
-    padding: .5rem 0 1rem 0;
+    padding: .5rem 0 .5rem 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    font-size: 1.2em;
 }
+
+.faq__question > p:hover{
+    font-weight: 700;
+}
+
+.faq__answer{
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.faq__question.faq__answer--toggle .faq__answer{
+    max-height: 50px;
+} 
+
 
 .faq__answer > p {
-    color: var(--dark-grayish-blue)
+    color: var(--dark-grayish-blue);
 }
+
+
 

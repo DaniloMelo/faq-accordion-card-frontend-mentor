@@ -23,7 +23,7 @@
 
 
 body{
-    height: 100vh;
+    min-height: 100vh;
     font-family: "Kumbh Sans", sans-serif;
     font-size: 12px;
     color: var(--very-dark-grayish-blue);
