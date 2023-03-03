@@ -72,3 +72,7 @@
 .faq__question.faq__anwer--rotate-arrow .faq__arrow{
     transform: rotate(-180deg);
 }
+
+.faq__question--bold{
+    font-weight: 700;
+}
